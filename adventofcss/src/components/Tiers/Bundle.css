@@ -1,0 +1,50 @@
+.tier {
+  background: url('./images/bg__solution.svg') center top no-repeat;
+  background-size: 439px 321px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 439px;
+  height: 321px;
+  padding: 0 50px 45px;
+}
+
+.content {
+  position: relative;
+  top: -45px;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h3 {
+  color: var(--rhino);
+  font-family: var(--silverAge);
+  font-size: 1.8rem;
+  line-height: 1.3;
+  margin: 10px 0 20px;
+  padding: 0;
+}
+
+p {
+  font-family: var(--body);
+  margin: 0;
+  line-height: 2;
+  padding: 0;
+  text-align: left;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--bostonBlue);
+    text-decoration: none;;
+  }
+}

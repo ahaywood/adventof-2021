@@ -1,0 +1,35 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+
+# advent of css
+adventofcss/.DS_Store
+adventofcss/node_modules
+adventofcss/build
+adventofcss/.svelte-kit
+adventofcss/package
+adventofcss/.env
+
+# advent of js
+adventofjs/.DS_Store
+adventofjs/node_modules
+adventofjs/build
+adventofjs/.svelte-kit
+adventofjs/package
+adventofjs/.env
+
+# advent of frontend
+adventoffrontend/.DS_Store
+adventoffrontend/node_modules
+adventoffrontend/build
+adventoffrontend/.svelte-kit
+adventoffrontend/package
+adventoffrontend/.env
+
+# sanity
+santiy/.DS_Store
+sanity/node_modules
+sanity/.env
