@@ -41,6 +41,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@sanity/block-content-to-html": "^2.0.0",
     "kwesforms": "^2.1.19"
   }
 }
