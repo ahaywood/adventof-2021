@@ -83,6 +83,8 @@
 </footer>
 
 <style lang="scss">
+	@import '../../styles/Breakpoints.scss';
+
 	footer {
 		background: url('./images/bg.svg') center top no-repeat;
 		background-size: cover;
@@ -102,7 +104,7 @@
 		margin: 0 0 75px 0;
 		flex-wrap: wrap;
 
-		@media (min-width: 481px) {
+		@media ($small) {
 			flex-wrap: no-wrap;
 			gap: 40px;
 		}
@@ -129,7 +131,7 @@
 			padding: 0;
 			margin: 0;
 
-			@media (min-width: 769px) {
+			@media ($tablet) {
 				gap: 40px;
 				flex-direction: row;
 			}
@@ -140,7 +142,7 @@
 				padding: 0;
 				text-transform: uppercase;
 
-				@media (min-width: 769px) {
+				@media ($tablet) {
 					background: url('./images/x.svg') right center no-repeat;
 					margin: 0 0 0 -15px;
 					padding: 0 50px 0 0;
@@ -179,7 +181,7 @@
 		span {
 			display: block;
 
-			@media (min-width: 481px) {
+			@media ($small) {
 				display: inline;
 			}
 		}

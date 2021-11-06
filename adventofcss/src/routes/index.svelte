@@ -1,18 +1,18 @@
 <script>
-  import Snow from "$components/Snow/Snow.svelte";
-  import Header from "$components/Header/Header.svelte";
-  import Faqs from "$components/Faqs/Faqs.svelte";
-  import BundleTier from '$components/Tiers/BundleTier.svelte';
-  import SolutionTier from '$components/Tiers/SolutionTier.svelte';
-  import FreeTier from '$components/Tiers/FreeTier.svelte';
-  import HowItWorks from "$components/HowItWorks/HowItWorks.svelte";
-  import GetGood from "$components/GetGood.svelte";
-  import WhoAreYou from "$components/WhoAreYou/WhoAreYou.svelte";
-  import WhoIsItFor from "$components/WhoIsItFor/WhoIsItFor.svelte";
-  import Calendar from '$components/Calendar/Calendar.svelte';
-  import IllustrationFooter from "$components/Tiers/images/illustration.svg"
-  import Footer from '$components/Footer/Footer.svelte';
-  import SectionHeader from "$components/SectionHeader/SectionHeader.svelte";
+	import Snow from '$components/Snow/Snow.svelte';
+	import Header from '$components/Header/Header.svelte';
+	import Faqs from '$components/Faqs/Faqs.svelte';
+	import BundleTier from '$components/Tiers/BundleTier.svelte';
+	import SolutionTier from '$components/Tiers/SolutionTier.svelte';
+	import FreeTier from '$components/Tiers/FreeTier.svelte';
+	import HowItWorks from '$components/HowItWorks/HowItWorks.svelte';
+	import GetGood from '$components/GetGood.svelte';
+	import WhoAreYou from '$components/WhoAreYou/WhoAreYou.svelte';
+	import WhoIsItFor from '$components/WhoIsItFor/WhoIsItFor.svelte';
+	import Calendar from '$components/Calendar/Calendar.svelte';
+	import IllustrationFooter from '$components/Tiers/images/illustration.svg';
+	import Footer from '$components/Footer/Footer.svelte';
+	import SectionHeader from '$components/SectionHeader/SectionHeader.svelte';
 </script>
 
 <Snow />
@@ -20,24 +20,23 @@
 <Header />
 
 <div class="tiers">
-  <FreeTier />
-  <SolutionTier />
-  <BundleTier />
+	<FreeTier />
+	<SolutionTier />
+	<BundleTier />
 </div>
 
 <!-- HOW IT WORKS -->
 <HowItWorks />
 
-
 <!-- GET GOOD AT CSS -->
 <GetGood />
 
 <div class="who-is-who-are">
-  <!-- WHO IS THIS FOR? -->
-  <div><WhoIsItFor /></div>
+	<!-- WHO IS THIS FOR? -->
+	<div><WhoIsItFor /></div>
 
-  <!-- WHO ARE YOU? -->
-  <div><WhoAreYou /></div>
+	<!-- WHO ARE YOU? -->
+	<div><WhoAreYou /></div>
 </div>
 
 <!-- 24 DAYS X 24 CHALLENGES -->
@@ -47,47 +46,80 @@
 <Faqs />
 
 <!-- TIERS -->
-<img src={IllustrationFooter} role="presentation" alt="houses" />
-<div class="tiers">
-  <h2>Join the Challenge</h2>
-  <FreeTier />
-  <SolutionTier />
-  <BundleTier />
+<div class="tier-illustrations">
+	<img src={IllustrationFooter} role="presentation" alt="houses" />
+</div>
+<div class="tiers bottom">
+	<h2>Join the Challenge</h2>
+	<FreeTier />
+	<SolutionTier />
+	<BundleTier />
 </div>
 
 <!-- FOOTER -->
 <Footer />
 
-
 <style lang="scss">
-  .tiers {
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 30px;
-    margin: 0 0 45px;
-    position: relative;
-    justify-content: center;
-    z-index: 75;
+	@import '../styles/Breakpoints.scss';
 
-    > h2 {
-      color: var(--ceramic);
-      font-family: var(--silverAge);
-      text-transform: uppercase;
-      font-size: 2.8rem;
-      font-weight: normal;
-      background: var(--rhino);
-      padding: 12px 20px;
-      position: absolute;
-      transform: skew(0, -9deg);
-      top: -110px;
-      left: 25px;
-    }
-  }
+	.tier-illustrations {
+		overflow-x: hidden;
+		width: 100vw;
+	}
+	.tiers {
+		display: flex;
+		flex-direction: column;
+		gap: 150px;
+		justify-content: center;
+		margin-bottom: 100px;
+		padding: 0 0 30px;
+		position: relative;
+		z-index: 75;
 
-  .who-is-who-are {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    gap: 50px;
-  }
+		/* tiers listed near the footer need additional space on top */
+		&.bottom {
+			margin-top: 75px;
+		}
+
+		/* tiers appear 3 across */
+		@media ($tablet) {
+			align-items: center;
+			flex-direction: row;
+			gap: 5px;
+			margin: 0 0 45px;
+		}
+
+		/* join the challenge */
+		> h2 {
+			background: var(--rhino);
+			color: var(--ceramic);
+			font-family: var(--silverAge);
+			font-size: 2.1rem;
+			font-weight: normal;
+			left: 25px;
+			padding: 12px 20px;
+			position: absolute;
+			text-transform: uppercase;
+			top: -180px;
+			transform: skew(0, -9deg);
+
+			@media ($desktop) {
+				font-size: 2.8rem;
+				top: -130px;
+			}
+		}
+	}
+
+	.who-is-who-are {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		gap: 50px;
+
+		@media ($desktop) {
+			flex-direction: row;
+			justify-content: center;
+		}
+	}
 </style>
