@@ -23,7 +23,9 @@
 	</div>
 </div>
 
-<style>
+<style lang="scss">
+	@import '../styles/Breakpoints.scss';
+
 	.grid {
 		display: grid;
 		grid-template-columns: var(--grid);
@@ -35,13 +37,27 @@
 
 	.wrapper {
 		background: var(--ceramic);
-		grid-column: 4 / -1;
+		grid-column: 2 / -2;
+
+		@media ($medium) {
+			grid-column: 4 / -1;
+		}
 	}
 
 	p {
 		font-family: var(--body);
-		font-size: 1.25rem;
-		line-height: 1.3;
-		padding: 0px 60px 60px;
+		font-size: 1rem;
+		line-height: 1.5;
+		padding: 0px 0px 0;
+		margin-bottom: 20px;
+
+		@media ($tablet) {
+			padding: 0px 60px 0;
+			font-size: 1.25rem;
+		}
+
+		&:last-child {
+			margin-bottom: 60px;
+		}
 	}
 </style>

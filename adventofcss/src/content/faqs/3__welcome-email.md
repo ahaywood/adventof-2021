@@ -1,5 +1,6 @@
 ---
 question: Ahh! Help!! I lost my welcome email.
+order: 3
 ---
 
-Certainly! The best place to reach me is amy@adventoffrontend.com
+No worries! Please email support [support[at]adventoffrontend.com](mailto:support@adventoffrontend.com)

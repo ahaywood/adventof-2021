@@ -104,7 +104,7 @@
 		margin: 0 0 75px 0;
 		flex-wrap: wrap;
 
-		@media ($small) {
+		@media ($xsmall) {
 			flex-wrap: no-wrap;
 			gap: 40px;
 		}
@@ -131,7 +131,7 @@
 			padding: 0;
 			margin: 0;
 
-			@media ($tablet) {
+			@media (min-width: 845px) {
 				gap: 40px;
 				flex-direction: row;
 			}
@@ -142,7 +142,7 @@
 				padding: 0;
 				text-transform: uppercase;
 
-				@media ($tablet) {
+				@media (min-width: 845px) {
 					background: url('./images/x.svg') right center no-repeat;
 					margin: 0 0 0 -15px;
 					padding: 0 50px 0 0;
@@ -155,6 +155,7 @@
 				&:last-child {
 					background: none;
 					margin-right: 0;
+					padding-right: 0;
 				}
 			}
 
@@ -181,7 +182,7 @@
 		span {
 			display: block;
 
-			@media ($small) {
+			@media ($xsmall) {
 				display: inline;
 			}
 		}

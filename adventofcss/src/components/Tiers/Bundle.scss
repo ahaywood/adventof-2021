@@ -1,3 +1,5 @@
+@import "../../styles/Breakpoints.scss";
+
 .tier {
   background-size: 100% 100%;
   background-position: center top;
@@ -9,11 +11,19 @@
   padding: 0 30px;
   width: 95%;
 
+  @media($tablet) {
+    padding: 0 45px;
+  }
+
   .content {
     margin-bottom: -25px;
     position: relative;
     text-align: center;
-    top: -75px;
+    top: -50px;
+
+    @media($tablet) {
+      top: -75px;
+    }
   }
 
   .button {
@@ -26,22 +36,26 @@
   h3 {
     color: var(--rhino);
     font-family: var(--silverAge);
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     line-height: 1.3;
     margin: 10px 0 20px;
     padding: 0;
+
+    @media ($tablet) {
+      font-size: 1.8rem;
+    }
   }
 
   p {
     font-family: var(--body);
     margin: 0;
-    line-height: 2;
-    padding: 0;
+    line-height: 1.5;
+    padding: 0 0 25px 0;
     text-align: left;
 
-    @media(min-width: 769px) {
-      font-size: 1rem;
-      line-height: 1.375rem;
+    @media($tablet) {
+      font-size: 1.25rem;
+      padding: 0;
     }
   }
 

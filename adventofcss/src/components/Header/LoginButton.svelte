@@ -7,17 +7,31 @@
 >
 
 <style lang="scss">
+	@import '../../styles/Breakpoints.scss';
+
 	a {
 		display: inline-block;
 		background: var(--rhino);
-		padding: 10px 20px;
+		padding: 5px 12px;
 		position: fixed;
 		right: 0;
 		top: 0;
 		z-index: 9999;
 
+		@media ($mobile) {
+			padding: 10px 20px;
+		}
+
 		&:hover {
 			background: var(--amaranth);
+		}
+
+		img {
+			width: 35px;
+
+			@media ($mobile) {
+				width: 54px;
+			}
 		}
 	}
 </style>

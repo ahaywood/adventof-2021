@@ -13,7 +13,7 @@
 		</p>
 	</div>
 	<div class="button">
-		<Button label="Sign me up!" />
+		<Button link="#" label="Sign me up!" podiaData="#" />
 	</div>
 </div>
 

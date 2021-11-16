@@ -2,12 +2,12 @@
 	import illustration from './images/header.svg';
 	import of from './images/of.svg';
 	import compressedfm from './images/compressed-fm.svg';
-	import Login from './Login.svelte';
+	import LoginButton from './LoginButton.svelte';
 </script>
 
 <header>
 	<div class="login">
-		<Login />
+		<LoginButton />
 	</div>
 	<img src={illustration} alt="header illustration" role="presentation" class="illustration" />
 	<div class="content">
@@ -31,8 +31,15 @@
 	@import '../../styles/Breakpoints.scss';
 
 	header {
-		min-height: 768px;
-		width: 100%;
+		box-sizing: border-box;
+		min-height: 420px;
+		position: relative;
+		overflow: hidden;
+		width: 100vw;
+
+		@media ($tablet) {
+			min-height: 768px;
+		}
 
 		@media ($xlarge) {
 			aspect-ratio: 1440 / 700;
@@ -41,8 +48,16 @@
 
 	.illustration {
 		position: absolute;
-		right: 0;
-		width: 1600px;
+		right: -40px;
+		width: 768px;
+
+		@media ($mobile) {
+			right: 0;
+		}
+
+		@media ($tablet) {
+			width: 1600px;
+		}
 
 		@media ($xlarge) {
 			width: 100%;
@@ -50,15 +65,25 @@
 		}
 	}
 	.content {
+		transform: skewY(-9deg) scale(0.5);
 		height: 580px;
 		width: 645px;
+		right: -170px;
+		top: -118px;
 		position: absolute;
-		right: 140px;
-		top: 80px;
-		transform: skewY(-9deg);
 
-		@media ($desktop) {
-			right: 10%;
+		@media ($mobile) {
+			right: -129px;
+		}
+
+		@media ($tablet) {
+			right: 70px;
+			top: 50px;
+			transform: skewY(-9deg);
+		}
+
+		@media ($xlarge) {
+			right: 5%;
 		}
 	}
 

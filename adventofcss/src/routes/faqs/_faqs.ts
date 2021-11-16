@@ -1,4 +1,5 @@
 // reference: https://githubmemory.com/repo/pngwn/MDsveX/issues/294
+
 export type Faq = {
   question: string;
 };

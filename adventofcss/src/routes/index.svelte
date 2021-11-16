@@ -65,6 +65,14 @@
 	.tier-illustrations {
 		overflow-x: hidden;
 		width: 100vw;
+
+		img {
+			width: 100%;
+
+			@media ($tablet) {
+				width: auto;
+			}
+		}
 	}
 	.tiers {
 		display: flex;
@@ -96,16 +104,27 @@
 			font-family: var(--silverAge);
 			font-size: 2.1rem;
 			font-weight: normal;
-			left: 25px;
+			left: -65px;
 			padding: 12px 20px;
 			position: absolute;
 			text-transform: uppercase;
-			top: -180px;
-			transform: skew(0, -9deg);
+			top: -140px;
+			transform: skew(0, -9deg) scale(0.6);
+
+			@media ($xsmall) {
+				left: -30px;
+				transform: skew(0, -9deg) scale(0.75);
+			}
+
+			@media ($tablet) {
+				left: 25px;
+				top: -165px;
+				transform: skew(0, -9deg);
+			}
 
 			@media ($desktop) {
 				font-size: 2.8rem;
-				top: -130px;
+				top: -195px;
 			}
 		}
 	}
@@ -117,9 +136,10 @@
 		position: relative;
 		gap: 50px;
 
-		@media ($desktop) {
+		@media ($medium) {
 			flex-direction: row;
 			justify-content: center;
+			gap: 0;
 		}
 	}
 </style>

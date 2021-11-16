@@ -21,9 +21,11 @@
 	import day21 from './images/day-21.svg';
 	import day22 from './images/day-22.svg';
 	import day2324 from './images/day-23-24.svg';
+	import SectionHeader from './SectionHeader.svelte';
 </script>
 
 <div class="calendar">
+	<div class="full-width"><SectionHeader /></div>
 	<div><img src={day1} alt="Day 1" /></div>
 	<div><img src={day2} alt="Day 2" /></div>
 	<div><img src={day3} alt="Day 3" /></div>
@@ -63,6 +65,10 @@
 
 	.double-tall {
 		grid-row: span 2;
+	}
+
+	.full-width {
+		grid-column: 1 / -1;
 	}
 
 	img {

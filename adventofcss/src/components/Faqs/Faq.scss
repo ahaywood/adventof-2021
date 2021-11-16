@@ -1,0 +1,9 @@
+.answer a {
+  color: black;
+  font-weight: bold;
+
+  &:hover {
+    color: #3e8daf;
+    text-decoration: none;
+  }
+}

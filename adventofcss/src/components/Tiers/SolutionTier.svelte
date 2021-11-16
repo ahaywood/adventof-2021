@@ -13,7 +13,13 @@
 		</p>
 	</div>
 	<div class="button">
-		<Button label="Yes, Please!" styling="alternate" />
+		<Button
+			label="Yes, Please!"
+			styling="alternate"
+			link="https://store.selfteach.me/advent-of-css"
+			podiaData="link"
+		/>
+		<a href="https://store.selfteach.me/advent-of-css" data-podia-embed="link">Advent of CSS</a>
 	</div>
 </div>
 

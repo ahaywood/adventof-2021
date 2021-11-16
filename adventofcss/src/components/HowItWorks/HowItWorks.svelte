@@ -59,6 +59,8 @@
 </div>
 
 <style lang="scss">
+	@import '../../styles/Breakpoints.scss';
+
 	.grid {
 		display: grid;
 		grid-gap: 20px;
@@ -71,7 +73,11 @@
 
 	.wrapper {
 		background: var(--ceramic);
-		grid-column: 4 / -1;
+		grid-column: 2 / -2;
+
+		@media ($medium) {
+			grid-column: 4 / -1;
+		}
 	}
 
 	.header {
@@ -81,19 +87,52 @@
 	.step {
 		align-items: flex-start;
 		display: flex;
+		gap: 10px;
 		margin-bottom: 40px;
+		flex-direction: column;
+
+		@media ($xsmall) {
+			gap: 0;
+			flex-direction: row;
+		}
 
 		&__image {
 			margin-right: 20px;
 			text-align: right;
-			width: 150px;
+		}
+	}
+
+	h3 {
+		font-family: var(--silverAge);
+		color: var(--rhino);
+		font-size: 1.25rem;
+		line-height: 1.3;
+		font-weight: normal;
+		padding: 0;
+		margin: 0;
+
+		@media ($tablet) {
+			font-size: 2.25rem;
 		}
 	}
 
 	p,
 	li {
 		font-family: var(--body);
-		font-size: 1.25rem;
-		line-height: 1.3;
+		font-size: 1rem;
+		line-height: 1.5;
+
+		@media ($tablet) {
+			font-size: 1.25rem;
+		}
+
+		a {
+			color: black;
+			font-weight: bold;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
 	}
 </style>
