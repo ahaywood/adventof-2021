@@ -125,14 +125,14 @@
 		@media ($tablet) {
 			font-size: 1.25rem;
 		}
+	}
 
-		a {
-			color: black;
-			font-weight: bold;
+	li a {
+		color: black;
+		font-weight: bold;
 
-			&:hover {
-				text-decoration: none;
-			}
+		&:hover {
+			text-decoration: none;
 		}
 	}
 </style>
