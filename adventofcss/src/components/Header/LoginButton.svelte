@@ -2,7 +2,7 @@
 	import login from './images/login.svg';
 </script>
 
-<a href="#https://store.selfteach.me/login" target="_blank" class="login"
+<a href="https://store.selfteach.me/login" target="_blank" class="login"
 	><img src={login} alt="LOGIN" /></a
 >
 
