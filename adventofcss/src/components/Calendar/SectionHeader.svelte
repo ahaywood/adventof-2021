@@ -1,6 +1,6 @@
 <div class="header long">
 	<div class="text">24 days <span>x</span> 24 Challenges</div>
-	<div class="shadow">24 days <span>x</span> 24 Challenges</div>
+	<!-- <div class="shadow">24 days <span>x</span> 24 Challenges</div> -->
 </div>
 
 <style lang="scss">

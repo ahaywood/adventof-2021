@@ -8,8 +8,9 @@
 		<Dollars dollars={39} />
 		<h3>Bundled with<br /> JavaScript Challenges</h3>
 		<p>
-			24 Challengs and Solutions for Advent of CSS <strong><em>and</em></strong>
-			<a href="http://adventofjs.com" target="_blank">Advent of JavaScript</a>
+			All 24 CSS Challenges and their solutions. <strong><em>Plus</em></strong>
+			24 JavaScript challenges and their solutions from
+			<a href="http://adventofjs.com" target="_blank">Advent of JavaScript</a>.
 		</p>
 	</div>
 	<div class="button">

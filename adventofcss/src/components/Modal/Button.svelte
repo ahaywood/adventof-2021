@@ -1,15 +1,15 @@
 <script lang="ts">
 	export let label: string;
 	export let styling = 'default';
-	export let link = '';
 	export let className = '';
 </script>
 
-<a
-	href={link}
+<button
 	class={className}
 	class:default={styling == 'default'}
 	class:alternate={styling == 'alternate'}
+  role="button"
+  type="submit"
 >
 	<svg viewBox="0 0 200 67" fill="none" xmlns="http://www.w3.org/2000/svg" class="bg">
 		<path d="M0.573242 0.994629H199.573L198.073 64.4946L0.573242 66.9946V0.994629Z" />
@@ -20,7 +20,7 @@
 	</svg>
 
 	<span class="button-label">{label}</span>
-</a>
+</button>
 
 <style lang="scss">
 	.default {
@@ -41,7 +41,7 @@
 		}
 	}
 
-	a {
+	button {
 		background: none;
 		border: none;
 		cursor: pointer;

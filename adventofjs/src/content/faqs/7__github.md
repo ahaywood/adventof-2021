@@ -7,4 +7,4 @@ Feel free to put _your_ code on GitHub. But, if you've paid for the solutions, p
 
 You can include these challenges within your portfolio, but be honest about your contributions.
 
-I'd love for you to write about how you solved the problem. There's no better way to learn! Please tweet about it and tag us! _#adventofjs_, especially if you solved the challenge differently than we did. hungryflute693
+I'd love for you to write about how you solved the problem. There's no better way to learn! Please tweet about it and tag us! _#adventofjs_, especially if you solved the challenge differently than we did.
