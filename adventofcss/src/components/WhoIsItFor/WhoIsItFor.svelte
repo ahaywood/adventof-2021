@@ -75,9 +75,9 @@
 		@media ($desktop) {
 			background-size: auto auto;
 			height: 239px;
-			left: -50px;
+			left: 0px;
 			margin-bottom: -90px;
-			top: -90px;
+			top: -70px;
 			width: 636px;
 		}
 
