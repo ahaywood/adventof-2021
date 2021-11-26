@@ -19,7 +19,7 @@
 		<Button
 			label="Yes, Please!"
 			styling="alternate"
-			link="https://gumroad.com/l/wTNep?wanted=true"
+			link="https://gumroad.com/l/wTNep"
 		/>
 	</div>
 </div>

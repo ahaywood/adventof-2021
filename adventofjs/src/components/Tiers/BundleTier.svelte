@@ -14,7 +14,10 @@
 		</p>
 	</div>
 	<div class="button">
-		<Button label="Awesome!" />
+		<Button
+			label="Awesome!"
+			link="https://gumroad.com/l/pbWkd"
+		/>
 	</div>
 </div>
 

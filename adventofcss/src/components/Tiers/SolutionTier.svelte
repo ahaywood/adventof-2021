@@ -16,7 +16,7 @@
 		<Button
 			label="Yes, Please!"
 			styling="alternate"
-			link="https://gumroad.com/l/PWngBj?wanted=true"
+			link="https://gumroad.com/l/PWngBj"
 		/>
 		<script src="https://gumroad.com/js/gumroad.js"></script>
 	</div>
