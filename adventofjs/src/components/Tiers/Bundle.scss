@@ -1,73 +1,77 @@
-@import "../../styles/Breakpoints.scss";
+@import '../../styles/Breakpoints.scss';
 
 .tier {
-  background-size: 100% 100%;
-  background-position: center top;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  position: relative;
-  flex: 1;
-  margin: 0 auto;
-  padding: 0 30px;
-  width: 95%;
+	background-size: 100% 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	position: relative;
+	flex: 1;
+	margin: 0 auto;
+	padding: 0 30px;
+	width: 95%;
 
-  @media($tablet) {
-    padding: 0 45px;
-  }
+	@media ($tablet) {
+		padding: 0 45px;
+	}
 
-  .content {
-    margin-bottom: -25px;
-    position: relative;
-    text-align: center;
-    top: -50px;
+	.content {
+		margin-bottom: -25px;
+		position: relative;
+		text-align: center;
+		top: -50px;
 
-    @media($tablet) {
-      top: -75px;
-    }
-  }
+		@media ($tablet) {
+			top: -75px;
+		}
+	}
 
-  .button {
-    position: absolute;
-    bottom: -45px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+	.button {
+		position: absolute;
+		bottom: -45px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
 
-  h3 {
-    color: var(--rhino);
-    font-family: var(--silverAge);
-    font-size: 1.3rem;
-    line-height: 1.3;
-    margin: 10px 0 20px;
-    padding: 0;
+	h3 {
+		color: var(--rhino);
+		font-family: var(--silverAge);
+		font-size: 1.3rem;
+		line-height: 1.3;
+		margin: 10px 0 20px;
+		padding: 0;
 
-    @media ($tablet) {
-      font-size: 1.8rem;
-    }
-  }
+		@media ($tablet) {
+			font-size: 1.8rem;
+		}
+	}
 
-  p {
-    font-family: var(--body);
-    margin: 0;
-    line-height: 1.5;
-    padding: 0 0 25px 0;
-    text-align: left;
+	p {
+		font-family: var(--body);
+		margin: 0;
+		line-height: 1.5;
+		padding: 0 0 25px 0;
+		text-align: left;
 
-    @media($tablet) {
-      font-size: 1.25rem;
-      padding: 0;
-    }
-  }
+		@media ($tablet) {
+			font-size: 1.25rem;
+			padding: 0;
+		}
+	}
 
-  // links within the content
-  a {
-    color: black;
-    font-weight: bold;
-    text-decoration: underline;
+	p + p {
+		padding-top: 25px;
+	}
 
-    &:hover {
-      color: var(--bostonBlue);
-      text-decoration: none;;
-    }
-  }
+	// links within the content
+	a {
+		color: black;
+		font-weight: bold;
+		text-decoration: underline;
+
+		&:hover {
+			color: var(--bostonBlue);
+			text-decoration: none;
+		}
+	}
 }

@@ -18,7 +18,7 @@
 			</div>
 			<span class="css">JavaScript</span>
 		</h1>
-		<h2>24 CSS Challenges for the Season</h2>
+		<h2>24 JavaScript Challenges for the Season</h2>
 		<h3>Starts December 1, 2021</h3>
 		<h4>
 			<span>Powered by</span>

@@ -6,10 +6,11 @@
 <div class="tier">
 	<div class="content">
 		<Dollars dollars={39} />
-		<h3>Bundled with<br /> JavaScript Challenges</h3>
+		<h3>Bundled with<br /> CSS Challenges</h3>
 		<p>
-			24 Challengs and Solutions for Advent of CSS <strong><em>and</em></strong>
-			<a href="http://adventofjs.com" target="_blank">Advent of JavaScript</a>
+			All 24 JavaScript Challenges and their solutions. <strong><em>Plus</em></strong> 24
+			CSS challenges and their solutions from
+			<a href="http://adventofcss.com" target="_blank">Advent of CSS</a>.
 		</p>
 	</div>
 	<div class="button">
