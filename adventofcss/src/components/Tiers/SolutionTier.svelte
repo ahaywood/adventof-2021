@@ -16,10 +16,9 @@
 		<Button
 			label="Yes, Please!"
 			styling="alternate"
-			link="https://store.selfteach.me/advent-of-css"
-			podiaData="link"
+			link="https://gumroad.com/l/PWngBj?wanted=true"
 		/>
-		<a href="https://store.selfteach.me/advent-of-css" data-podia-embed="link">Advent of CSS</a>
+		<script src="https://gumroad.com/js/gumroad.js"></script>
 	</div>
 </div>
 

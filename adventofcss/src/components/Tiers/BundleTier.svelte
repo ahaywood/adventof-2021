@@ -13,7 +13,8 @@
 		</p>
 	</div>
 	<div class="button">
-		<Button label="Awesome!" />
+		<Button label="Awesome!" link="https://gumroad.com/l/wTNep?wanted=true" />
+		<script src="https://gumroad.com/js/gumroad.js"></script>
 	</div>
 </div>
 

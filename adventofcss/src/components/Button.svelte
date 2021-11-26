@@ -3,11 +3,13 @@
 	export let styling = 'default';
 	export let link = '';
 	export let podiaData = '';
+	export let className = '';
 </script>
 
 <a
 	href={link}
 	data-podia-embed={podiaData}
+	class={className}
 	class:default={styling == 'default'}
 	class:alternate={styling == 'alternate'}
 >

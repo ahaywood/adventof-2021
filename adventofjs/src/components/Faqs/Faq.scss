@@ -1,0 +1,13 @@
+.answer p {
+	color: white;
+}
+
+.answer a {
+	color: white;
+	font-weight: bold;
+
+	&:hover {
+		color: #fffefa;
+		text-decoration: none;
+	}
+}
