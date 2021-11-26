@@ -172,6 +172,7 @@
 
 	.copyright {
 		color: var(--darkPastelBlue);
+		font-family: var(--body);
 		font-size: 0.875rem;
 		text-align: center;
 
@@ -189,7 +190,7 @@
 
 		a {
 			color: var(--darkPastelBlue);
-
+			font-weight: bold;
 			&:hover {
 				color: var(--silverSand);
 			}
