@@ -43,6 +43,12 @@
 			],
 			"$utils/*": [
 				"src/utils/*"
+			],
+			"$content": [
+				"src/content"
+			],
+			"$content/*": [
+				"src/content/*"
 			]
 		}
 	},

@@ -23,6 +23,7 @@ const config = {
           '$components': path.resolve('./src/components'),
           '$routes': path.resolve('./src/routes'),
           '$utils': path.resolve('./src/utils'),
+          '$content': path.resolve('./src/content'),
         }
       }
     },
