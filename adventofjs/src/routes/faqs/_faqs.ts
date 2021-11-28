@@ -4,7 +4,7 @@ export type Faq = {
   question: string;
 };
 
-const modules = import.meta.globEager("$content/content/faqs/*.md");
+const modules = import.meta.globEager("../../content/faqs/*.md");
 
 export const faqs: Faq[] = Object.entries(modules).map(([filepath, module]) => {
   const { metadata } = module;

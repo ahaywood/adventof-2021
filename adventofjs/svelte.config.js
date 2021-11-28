@@ -22,8 +22,7 @@ const config = {
           // these are the aliases and paths to them
           '$components': path.resolve('./src/components'),
           '$routes': path.resolve('./src/routes'),
-          '$utils': path.resolve('./src/utils'),
-          '$content': path.resolve('./src/content'),
+          '$utils': path.resolve('./src/utils')
         }
       }
     },
