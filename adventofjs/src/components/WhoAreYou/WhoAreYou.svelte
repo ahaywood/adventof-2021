@@ -1,7 +1,7 @@
 <script>
 	import hello from './images/hello.svg';
-	import avatar from './images/avatar.jpg';
-	import avatar2x from './images/avatar@2x.jpg';
+	import avatar from './images/avatar.png';
+	import avatar2x from './images/avatar@2x.png';
 </script>
 
 <div class="wrapper">
@@ -10,12 +10,18 @@
 	</div>
 	<div class="bottom">
 		<div class="avatar">
-			<img src={avatar} alt="Amy Dutton" srcset="{avatar} 1x, {avatar2x} 2x" class="profile-pic" />
+			<img
+				src={avatar}
+				alt="James Q Quick"
+				srcset="{avatar} 1x, {avatar2x} 2x"
+				class="profile-pic"
+			/>
 		</div>
 		<div class="content">
 			<img src={hello} alt="Hello" class="hello" /> My name is
-			<a href="http://twitter.com/selfteachme" title="SelfTeach.me">James Q Quick</a>. I’m a Staff Developer Advocate
-			at <a href="https://planetscale.com/" target="_blank">PlanetScale</a>. I co-host a podcast calld
+			<a href="http://twitter.com/selfteachme" title="SelfTeach.me">James Q Quick</a>. I’m a Staff
+			Developer Advocate at <a href="https://planetscale.com/" target="_blank">PlanetScale</a>. I
+			co-host a podcast calld
 			<a href="http://compressed.fm" target="_blank">Compressed.fm</a> and teach developers through content.
 		</div>
 	</div>
@@ -175,6 +181,7 @@
 		margin: 0 auto;
 		top: -30px;
 
+		/* holly on the left */
 		&:before {
 			content: '';
 			background: url('./images/holly-leaves--left.svg') left bottom no-repeat;
@@ -184,17 +191,26 @@
 			position: absolute;
 			left: -25px;
 			bottom: -45px;
+
+			@media ($desktop) {
+				bottom: 20px;
+			}
 		}
 
+		/* holly on the right */
 		&:after {
 			background: url('./images/holly-leaves--right.svg') left bottom no-repeat;
-			bottom: -25px;
+			bottom: -17px;
 			content: '';
 			display: block;
 			height: 109px;
 			position: absolute;
 			right: -24px;
 			width: 118px;
+
+			@media ($desktop) {
+				bottom: 20px;
+			}
 		}
 
 		img {

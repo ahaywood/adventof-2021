@@ -1,6 +1,5 @@
 <div class="header long">
 	<div class="text">24 days <span>x</span> 24 Challenges</div>
-	<div class="shadow">24 days <span>x</span> 24 Challenges</div>
 </div>
 
 <style lang="scss">
@@ -54,17 +53,6 @@
 				@media ($xsmall) {
 					font-size: 7rem;
 				}
-			}
-		}
-
-		.shadow {
-			color: var(--textShadow);
-			line-height: 1;
-			position: absolute;
-			z-index: 1;
-
-			span {
-				top: 10px;
 			}
 		}
 	}

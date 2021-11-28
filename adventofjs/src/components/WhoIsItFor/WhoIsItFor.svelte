@@ -4,13 +4,12 @@
 	</div>
 	<div class="content">
 		<p>
-			These challenges are perfect for beginner to intermediate developers (or designers) who want
-			to become more comfortable with their CSS styling skills.
+			These challenges are perfect for beginner to intermediate developers who want to become more
+			comfortable with their JavaScript skills.
 		</p>
 		<p>
 			<strong
-				><em>Before accepting this challenge, you really should know basic HTML and CSS.</em
-				></strong
+				><em>Before accepting this challenge, you really should know basic JavaScript.</em></strong
 			>
 		</p>
 		<p>
@@ -75,9 +74,9 @@
 		@media ($desktop) {
 			background-size: auto auto;
 			height: 239px;
-			left: -50px;
+			left: 0;
 			margin-bottom: -90px;
-			top: -90px;
+			top: -70px;
 			width: 636px;
 		}
 

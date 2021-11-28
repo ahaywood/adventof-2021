@@ -18,14 +18,16 @@
 				<img src={stepOne} alt="Step One" />
 			</div>
 			<div>
-				<h3>For 24 days, you’will get an email outlining a CSS challenge</h3>
+				<h3>For 24 days, you’will get an email outlining a JavaScript challenge</h3>
 				<p>Each challenge includes:</p>
 				<ul>
 					<li>
-						A <a href="http://figma.com" target="_blank">Figma</a> design file (no need for a Figma
-						account, although it's <em>FREE</em>)
+						All the HTML and CSS you need to get started, allowing you to focus on the JavaScript.
 					</li>
-					<li>A brief on how to get started, with ideas to test yourself, and challenge FAQs.</li>
+					<li>
+						A brief on how to get started, ways to push yourself, and steps to help you get
+						started..
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -51,7 +53,7 @@
 				<h3>Share your success.</h3>
 				<p>
 					When you’re finished call you mom! Tweet about it! Post a picture on Instagram. Talk about
-					it on Facebook. Use the hashtag <strong>#adventofcss</strong>.
+					it on Facebook. Use the hashtag <strong>#adventofjs</strong>.
 				</p>
 			</div>
 		</div>

@@ -5,21 +5,19 @@ order: 10
 
 Thanks for asking! If you haven't already, check out [Advent of JavaScript](http://adventofjs.com).
 
-James Q Quick has [a few courses available.](https://www.jamesqquick.com/courses/)
+James has [a few courses available.](https://www.jamesqquick.com/courses/)
 
 We also have some other irons in the fire for 2022. Feel free to visit the landing pages and express your interest. -- That helps us guage interest:
 
-- [Everything Svelte](https://selfteachme.ck.page/2d397a71eb)
-- [Design Starter Kit](https://selfteachme.ck.page/8ead2399a3)
-  <!-- - [100 Days of Code](http://) -->
-  <!-- - [Webflow and Automation]() -->
-  <!-- - [Headless WordPress]() -->
-  <!-- - [UI / UX for Everyone]() -->
-  <!-- - [Building an App from Scratch]() -->
-  <!-- - [Layout Challenge]() -->
-  <!-- - [Unboring Bootcamp](http://unboringbootcamp.com) -->
-  <!-- - [CSS for Advanced Beginners]() -->
-  <!-- - [Projects for Developers]() -->
+- [Everything Svelte](http://everythingsvelte.com)
+<!-- - [Design Starter Kit](https://selfteachme.ck.page/8ead2399a3) -->
+- [100 Days of Code](https://selfteachme.ck.page/f7fe5256fa)
+<!-- - [Headless WordPress]()
+- [UI / UX for Everyone]()
+- [App from Scratch]()
+- [Layout Challenge]()
+- [CSS for Advanced Beginners]()
+- [Projects for Developers]() -->
 
 Also, find us elsewhere online:
 
