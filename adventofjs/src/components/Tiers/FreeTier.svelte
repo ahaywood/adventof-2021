@@ -9,12 +9,12 @@
 		<h3>24 Challenges</h3>
 		<p>
 			Each challenge includes <strong>all the HTML and CSS you need to get started</strong>,
-			allowing you to focus on the JavaScript. Each challenge also includes a brief,
-			ways to push yourself, and steps to help you get you started.
+			allowing you to focus on the JavaScript. Each challenge also includes a brief, ways to push
+			yourself, and steps to help you get you started.
 		</p>
 	</div>
 	<div class="button">
-		<Button link="#" label="Sign me up!" />
+		<Button link="/free" label="Sign me up!" />
 	</div>
 </div>
 
