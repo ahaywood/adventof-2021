@@ -30,7 +30,7 @@
 					<label for="email">Email*</label>
 					<input type="text" name="email" id="email" rules="required|email" />
 				</div>
-				<Button label="Count me in!" />
+				<Button styling="alternate" label="Count me in!" />
 			</div>
 		</form>
 	</div>
@@ -40,7 +40,7 @@
 	@import '../../styles/Breakpoints.scss';
 
 	.overlay {
-		background: rgba(256, 256, 256, 0.95);
+		background: var(--blueZodiac);
 		bottom: 0;
 		height: 100vw;
 		left: 0;
@@ -101,7 +101,7 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 48px;
-		color: var(--amaranth);
+		color: var(--ceramic);
 	}
 
 	.fields {
@@ -119,7 +119,7 @@
 		display: block;
 		font-family: var(--silverAge);
 		text-transform: uppercase;
-		color: var(--rhino);
+		color: white;
 	}
 
 	input[type='text'] {
