@@ -1,0 +1,15 @@
+.kw-alert {
+	box-sizing: border-box;
+}
+
+.kw-field-error-message {
+	font-family: var(--body);
+	font-size: 14px;
+	font-weight: bold;
+	color: var(--amaranth);
+	position: absolute;
+}
+
+input.kw-border-error {
+	border-color: var(--amaranth) !important;
+}
