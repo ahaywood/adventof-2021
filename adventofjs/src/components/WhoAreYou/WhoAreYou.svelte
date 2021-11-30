@@ -21,7 +21,7 @@
 			<img src={hello} alt="Hello" class="hello" /> My name is
 			<a href="http://twitter.com/selfteachme" title="SelfTeach.me">James Q Quick</a>. I’m a Staff
 			Developer Advocate at <a href="https://planetscale.com/" target="_blank">PlanetScale</a>. I
-			co-host a podcast calld
+			co-host a podcast called
 			<a href="http://compressed.fm" target="_blank">Compressed.fm</a> and teach developers through content.
 		</div>
 	</div>

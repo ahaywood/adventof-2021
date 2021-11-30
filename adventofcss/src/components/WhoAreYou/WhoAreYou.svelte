@@ -14,10 +14,11 @@
 		</div>
 		<div class="content">
 			<img src={hello} alt="Hello" class="hello" /> My name is
-			<a href="http://twitter.com/selfteachme" title="SelfTeach.me">Amy Dutton</a>.
-			I’m the Director of Design at <a href="http://codingzeal.com" target="_blank">ZEAL</a>.
-			I co-host a podcast calld <a href="http://compressed.fm" target="_blank">Compressed.fm</a>
-			and teach developers how to design and develop at <a href="http://selfteach.me" title="SelfTeach.me">SelfTeach.me</a>.
+			<a href="http://twitter.com/selfteachme" title="SelfTeach.me">Amy Dutton</a>. I’m the Director
+			of Design at <a href="http://codingzeal.com" target="_blank">ZEAL</a>. I co-host a podcast
+			called <a href="http://compressed.fm" target="_blank">Compressed.fm</a>
+			and teach developers how to design and develop at
+			<a href="http://selfteach.me" title="SelfTeach.me">SelfTeach.me</a>.
 		</div>
 	</div>
 </div>

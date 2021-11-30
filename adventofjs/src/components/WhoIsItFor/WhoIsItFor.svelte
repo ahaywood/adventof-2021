@@ -13,7 +13,7 @@
 			>
 		</p>
 		<p>
-			You learn best through implemenation. Once you’ve applied your knowledge to a specific
+			You learn best through implementation. Once you’ve applied your knowledge to a specific
 			project, learning concepts are solidified.
 		</p>
 	</div>
