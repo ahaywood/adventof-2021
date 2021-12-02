@@ -1,9 +1,9 @@
 export const Constants = {
-  TWITCH: 'http://twitter.com/selfteachme',
+  TWITCH: 'http://twitch.tv/selfteachme',
   INSTAGRAM: 'http://instagram.com/selfteachme',
   TWITTER: 'http://twitter.com/selfteachme',
   YOUTUBE: 'http://youtube.com/c/selfteachme',
-  CODEPEN: 'http://youtube.com/ahaywood',
+  CODEPEN: 'https://codepen.io/ahaywood',
   GITHUB: 'http://github.com/ahaywood'
 }
 

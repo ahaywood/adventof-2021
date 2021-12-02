@@ -23,8 +23,8 @@
 				<ul>
 					<li>
 						All the assets you need to get started, including a
-						<a href="http://figma.com" target="_blank">Figma</a> design file
-						(if you don't have a Figma accouont, don't worry it's <em>FREE</em>)
+						<a href="http://figma.com" target="_blank">Figma</a> design file (if you don't have a
+						Figma account, don't worry it's <em>FREE</em>)
 					</li>
 					<li>A brief on how to get started, with ideas to test yourself, and FAQs.</li>
 				</ul>
@@ -51,9 +51,10 @@
 			<div>
 				<h3>Share your success.</h3>
 				<p>
-					When you’re finished call you mom! Tweet about it! Stick your code on GitHub.
-					Post a picture on Instagram. Talk about it on Facebook. Use the
-					hashtag <strong>#adventofcss</strong>.
+					When you’re finished call you mom! Tweet about it! Stick your code on GitHub. Post a
+					picture on Instagram. Talk about it on Facebook. Use the hashtag <strong
+						>#adventofcss</strong
+					>.
 				</p>
 			</div>
 		</div>
