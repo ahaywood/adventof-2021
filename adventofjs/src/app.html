@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/images/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="https://gumroad.com/js/gumroad.js"></script>
 
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" href="/favicon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<script src="https://gumroad.com/js/gumroad.js"></script>
+		<!-- Fathom - beautiful, simple website analytics -->
+		<script src="https://cdn.usefathom.com/script.js" data-site="DVFBDCLY" defer></script>
+		<!-- / Fathom -->
 
-	<!-- Fathom - beautiful, simple website analytics -->
-	<script src="https://cdn.usefathom.com/script.js" data-site="DVFBDCLY" defer></script>
-	<!-- / Fathom -->
+		%svelte.head%
+	</head>
 
-	%svelte.head%
-</head>
-
-<body>
-	<div id="svelte">%svelte.body%</div>
-</body>
-
+	<body>
+		<div id="svelte">%svelte.body%</div>
+	</body>
 </html>
