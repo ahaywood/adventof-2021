@@ -1,24 +1,5 @@
 <slot><!-- optional fallback --></slot>
 
-<svelte:head>
-	<title>Advent of JS</title>
-	<link rel="icon" href="/images/icon-192x192.png" />
-	<link rel="manifest" href="/manifest.json" />
-	<link rel="apple-touch-icon" href="/images/icon-192x192.png" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@jamesqquick" />
-	<meta name="twitter:creator" content="@jamesqquick" />
-	<meta property="og:url" content="https://www.adventofjs.com/" />
-	<meta property="og:title" content="Advent of JS" />
-	<meta property="og:description" content="24 CSS Challenges for the Season" />
-	<meta property="og:image" content="/images/Banner.png" />
-	<meta property="og:image:alt" content="Advent of JS" />
-	<meta property="og:image:width" content="1920" />
-	<meta property="og:image:height" content="997" />
-	<meta property="og:site_name" content="Advent of JS" />
-	<link rel="canonical" href="https://www.adventofjs.com/" />
-</svelte:head>
-
 <style lang="scss">
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -65,7 +46,5 @@
 		background: var(--blueZodiac) url('/images/plaid.png') center top repeat;
 		margin: 0;
 		padding: 0;
-		width: 100vw;
-		overflow-x: hidden;
 	}
 </style>
