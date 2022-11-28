@@ -19,7 +19,7 @@
 			</div>
 		</h1>
 		<h2>24 CSS Challenges for the Season</h2>
-		<h3>Starts December 1, 2021</h3>
+		<h3>Starts December 1, 2022</h3>
 		<h4>
 			<span>Powered by</span>
 			<img src={compressedfm} alt="Compressed.fm" />

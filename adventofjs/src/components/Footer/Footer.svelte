@@ -74,7 +74,7 @@
 
 	<p class="copyright">
 		<span
-			>Copyright &copy;2021. <a href="http://ahhacreative.com" target="_blank"
+			>Copyright &copy;2022. <a href="http://ahhacreative.com" target="_blank"
 				>Ah Ha Creative, LLC.</a
 			></span
 		>
