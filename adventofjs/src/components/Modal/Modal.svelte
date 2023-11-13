@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import './Modal.css';
 	import Button from './Button.svelte';
 </script>
