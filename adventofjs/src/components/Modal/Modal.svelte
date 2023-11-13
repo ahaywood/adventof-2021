@@ -1,12 +1,7 @@
 <script lang="ts">
-	import kwesforms from 'kwesforms';
 	import { onMount } from 'svelte';
 	import './Modal.css';
 	import Button from './Button.svelte';
-
-	onMount(() => {
-		kwesforms.init();
-	});
 </script>
 
 <div class="overlay" />
@@ -16,11 +11,7 @@
 <div class="wrapper">
 	<div class="content">
 		<h2>Receive Free Challenges in Your Inbox</h2>
-		<form
-			class="kwes-form"
-			action="https://kwesforms.com/api/foreign/forms/wNeFKVltY94K0R3RWvJT"
-			method="post"
-		>
+		<form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/wNeFKVltY94K0R3RWvJT">
 			<div class="fields">
 				<div>
 					<label for="firstName">First Name*</label>
