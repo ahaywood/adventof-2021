@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Twitch from '../icons/Twitch.svelte';
 	import CodePen from '../icons/CodePen.svelte';
 	import GitHub from '../icons/GitHub.svelte';
@@ -6,6 +6,11 @@
 	import Twitter from '../icons/Twitter.svelte';
 	import YouTube from '../icons/YouTube.svelte';
 	import { Constants } from '../../utils/constants';
+
+	const currentYear = () => {
+		const date = new Date();
+		return date.getFullYear();
+	};
 </script>
 
 <footer>
@@ -65,7 +70,7 @@
 	<!-- LINKS -->
 	<nav>
 		<ul>
-			<li><a href="/support">Contact / Support</a></li>
+			<li><a href="mailto:support@adventoffrontend.com">Contact / Support</a></li>
 			<li><a href="/legal/terms-and-conditions">Terms and Conditions</a></li>
 			<li><a href="/legal/disclaimers">Disclaimers</a></li>
 			<li><a href="/legal/privacy-policy">Privacy Policy</a></li>
@@ -74,8 +79,8 @@
 
 	<p class="copyright">
 		<span
-			>Copyright &copy;2022. <a href="http://ahhacreative.com" target="_blank"
-				>Ah Ha Creative, LLC.</a
+			>Copyright &copy;{currentYear}.
+			<a href="http://ahhacreative.com" target="_blank" rel="noreferrer">Ah Ha Creative, LLC.</a
 			></span
 		>
 		<span>All Rights Reserved.</span>
