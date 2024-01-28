@@ -3,11 +3,14 @@
 	import of from './images/of.svg';
 	import compressedfm from './images/compressed-fm.svg';
 	import LoginButton from './LoginButton.svelte';
+	import AnnualButton from './AnnualButton.svelte';
 </script>
 
 <header>
-	<div class="login">
+	<div class="login-annual-buttons">
 		<LoginButton />
+		<AnnualButton year="2021 + 2022" link="https://2021.adventofcss.com" />
+		<AnnualButton year="2023" link="https://adventofcss.com" />
 	</div>
 	<img src={illustration} alt="header illustration" role="presentation" class="illustration" />
 	<div class="content">
@@ -30,6 +33,15 @@
 <style lang="scss">
 	@import '../../styles/Breakpoints.scss';
 
+	.login-annual-buttons {
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 9999;
+		display: flex;
+		gap: 4px;
+	}
+
 	header {
 		box-sizing: border-box;
 		min-height: 420px;
@@ -44,6 +56,18 @@
 		@media ($xlarge) {
 			aspect-ratio: 1440 / 700;
 		}
+	}
+
+	.annual-links {
+		display: flex;
+		gap: 8px;
+		right: 0;
+		top: 0;
+		display: flex;
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 9999;
 	}
 
 	.illustration {

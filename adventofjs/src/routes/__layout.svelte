@@ -2,6 +2,7 @@
 
 <style lang="scss">
 	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=League+Gothic:wght@400&display=swap');
 
 	@font-face {
 		font-family: 'Silver Age';

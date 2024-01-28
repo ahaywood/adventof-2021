@@ -1,8 +1,8 @@
 <script>
-	import login from './images/login.svg';
+	export let year, link;
 </script>
 
-<a href="https://store.selfteach.me/login" target="_blank" class="login">LOGIN</a>
+<a href={link} target="_blank" class="login">{year}</a>
 
 <style lang="scss">
 	@import '../../styles/Breakpoints.scss';
@@ -10,12 +10,13 @@
 	a {
 		display: inline-block;
 		background: var(--rhino);
-		padding: 5px 12px;
-		z-index: 9999;
-		color: var(--floralWhite);
+		display: inline-block;
+		background: var(--silverSand);
+		color: var(--oracle);
 		font-family: 'League Gothic';
 		font-size: 26px;
 		letter-spacing: 2px;
+		padding: 5px 12px;
 		text-decoration: none;
 
 		@media ($mobile) {
@@ -23,15 +24,8 @@
 		}
 
 		&:hover {
-			background: var(--amaranth);
-		}
-
-		img {
-			width: 35px;
-
-			@media ($mobile) {
-				width: 54px;
-			}
+			background: var(--oracle);
+			color: var(--floralWhite);
 		}
 	}
 </style>

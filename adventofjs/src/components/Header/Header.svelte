@@ -3,11 +3,14 @@
 	import of from './images/of.svg';
 	import compressedfm from './images/compressed-fm.svg';
 	import LoginButton from './LoginButton.svelte';
+	import AnnualButton from './AnnualButton.svelte';
 </script>
 
 <header>
-	<div class="login">
+	<div class="login-annual-links">
 		<LoginButton />
+		<AnnualButton year="2021 + 2022" link="https://2021.adventofcss.com" />
+		<AnnualButton year="2023" link="https://adventofcss.com" />
 	</div>
 	<img src={illustration} alt="header illustration" role="presentation" class="illustration" />
 	<div class="content">
@@ -50,6 +53,15 @@
 		}
 	}
 
+	.login-annual-links {
+		position: fixed;
+		left: 0;
+		top: 0;
+		display: flex;
+		gap: 8px;
+		z-index: 9999;
+	}
+
 	.illustration {
 		position: absolute;
 		max-width: 150%;
@@ -79,7 +91,6 @@
 		width: 100vw;
 		top: 8vw;
 		padding-bottom: 8vw;
-
 
 		@media ($tablet) {
 			/* height: 580px; */
@@ -174,7 +185,6 @@
 			aspect-ratio: 102 / 161;
 			height: 100%;
 			width: 10vw;
-
 
 			@media ($tablet) {
 				width: 7vw;
