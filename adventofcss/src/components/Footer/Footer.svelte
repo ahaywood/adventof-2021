@@ -14,7 +14,7 @@
 </script>
 
 <footer>
-	<!-- SOOCIAL MEDIA -->
+	<!-- SOCIAL MEDIA -->
 	<ul class="social-media">
 		{#if Constants.TWITCH}
 			<li>
@@ -79,7 +79,7 @@
 
 	<p class="copyright">
 		<span
-			>Copyright &copy;{currentYear}.
+			>Copyright &copy;{currentYear()}.
 			<a href="http://ahhacreative.com" target="_blank">Ah Ha Creative, LLC.</a></span
 		>
 		<span>All Rights Reserved.</span>
