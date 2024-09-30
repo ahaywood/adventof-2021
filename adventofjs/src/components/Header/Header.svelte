@@ -9,8 +9,8 @@
 <header>
 	<div class="login-annual-links">
 		<LoginButton />
-		<AnnualButton year="2021 + 2022" link="https://2021.adventofcss.com" />
-		<AnnualButton year="2023" link="https://adventofcss.com" />
+		<AnnualButton year="2021 + 2022" link="https://2021.adventofjs.com" />
+		<AnnualButton year="2023" link="https://adventofjs.com" />
 	</div>
 	<img src={illustration} alt="header illustration" role="presentation" class="illustration" />
 	<div class="content">
